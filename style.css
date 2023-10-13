@@ -1,0 +1,385 @@
+body{
+    margin: 0;
+    padding: 0;
+ 
+}  
+
+.top-bar{
+
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+width: 100%;
+
+}
+.logo{
+    background-color: #009b4e;
+    height: 90px;
+    width: 270px;
+}
+.list{ text-decoration: none;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    
+    flex: 1;
+
+}
+.list a{
+    text-decoration: none;
+}
+.list a:hover{
+    text-decoration: underline;
+    
+    color: black;
+}
+.social-medias{
+    height: 90px;
+    background-color:#009b4e;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    
+
+    
+}
+.social-medias img{
+   width: 20px;
+   height: 20px;
+   border-radius: 10px;
+   margin-top: 35px;
+   margin-left: 30px;
+   
+
+}
+.social-medias img:hover{
+background-color: black;
+cursor: pointer;
+
+}
+.logo-image{
+    width: 139px;
+    height: 50px;
+    margin-top: 18px;
+    margin-left: 35px;
+}
+
+
+.list{
+    height: 60px;
+    width: 120px;
+    background-color: #009b4e;
+    color: white;
+    padding-top: 30px;
+    font-size: 13px;
+    font-weight:900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list a{
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+.list{
+    display: grid;
+    grid-template-columns: 100px 150px 100px 100px;
+
+}
+.product:hover{
+    color: black;
+}
+.social-medias{
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 732px;
+    background-color: black;
+}
+
+.bottle{
+    margin-top: 45px;
+    width: 633px; ;
+    height: 642;
+}
+.text-container{
+    margin-top: 120px;
+    margin-left: 20px;
+    font: weight 500px;
+    color: rgb(0,166,74);
+    font-size: 98px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+.main-ad{
+    width: 730px;
+    height: 90px;
+    margin-top: 40px;
+}
+.explore{
+    
+    background-color: rgb(255, 251, 1);
+    color: black;
+    border: none;
+    height: 44px;
+    width: 187px;
+    font-size: 15px;
+    font-weight:bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.explore:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.button12{
+    margin-top: -35px;
+}
+.second-container{
+    width: 100%;
+    height: 480px;
+    display: flex;
+}
+
+.video-container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    margin-top: 62px;
+    margin-left: 100px;
+}
+.video{
+    display: flex;
+    flex-basis: 50;
+}
+.video-container iframe
+{
+    width:630px;
+    height:340px;
+    margin-top: -10px;
+    margin-left: -35px;
+}
+    .add-text1{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+.main-text{
+    display: flex;
+    flex: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    margin-left: 80px;
+}
+.sub-text{
+    display: flex;
+    flex: 1;
+    margin-left: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+    margin-top: 20px;
+
+}
+.sub-button{
+    display: flex;
+    flex: 1;
+}
+.SHOP-NOW{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: 80px; 
+    background-color: rgb(255,209,0);
+    width: 200px;
+    height: 35px;
+    border: solid;
+    border: none;
+}
+.SHOP-NOW:hover
+{
+    background-color: rgb(67, 67, 67);
+    color: white;
+    cursor: pointer;
+
+}
+.container-3{
+    display: flex;
+    width: 100%;
+    height: 420px;
+    background-color: rgb(255, 255, 255);
+}
+.container-3-text{
+    display: flex;
+    flex: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    margin-left: 130px;
+    color: rgb(0,150,57);;
+    margin-top: 100px;
+}
+
+.container-3-image{
+    display: flex;
+    flex: 1;
+}
+.bottle-image2{
+    width: 630px;
+    height: 420px;
+}
+.container-4{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #009b4e;
+}
+.logo-2{
+    display: flex;
+flex-basis:35%;
+}
+.connect{
+    display: flex;
+    
+    flex-basis:30%;
+    background-color: #009b4e;
+}
+.product-details{
+    margin-top: 20px;
+    
+    display: flex;
+    flex-basis:35%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+.logo-3{
+    
+    width: 190px;
+    height: 65px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+.product-details h4{
+    margin-top: 20px;
+    margin-left: 0px;
+    color: rgb(255, 255, 255);
+    
+}
+.product-details li{
+    margin-top: 15px;
+    list-style: none;
+}
+.product-details li:hover{
+    color: black;
+    cursor: pointer;
+}
+.connect{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.social-logos{
+    display: flex;
+    flex: 1;
+    
+}
+.connect-with-us{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: -280px;
+
+}
+.connect{
+    color: white;
+    text-align: center;
+}
+.social{
+    width: 200px;
+   background-color: #009b4e;
+    margin-top: 37px;
+    height: 30px;
+    padding-top: 20px;
+    margin-bottom: -20px;
+
+   
+
+}
+.social img{
+    padding: 2px;
+    
+}
+.social img:hover{
+    width: 35px;
+    cursor: pointer;
+
+}
+.container-5{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    background-color: #009b4e;
+}
+.company{
+    display: flex;
+    flex: 1;
+    background-color: #009b4e;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-left: 600px;
+}
+.support-cente{
+    background-color: #009b4e;
+    display: flex;
+    flex: 1;
+    color: white;
+}
+.coca:hover{
+    text-decoration: underline;
+}
+.support-cente{
+  display: flex;
+  width: 100%;
+
+
+}
+
+.text-containetr2{
+    margin-left: 100px;
+}
+.last{
+    background-color: #009b4e;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.detail{
+background-color:#009b4e ;
+flex-basis: 80%;
+margin-left: 10%; 
+margin-right: 10%;
+padding-left: 6.5%;
+
+}
+.detail a{
+    color: white;
+    margin-left: 18px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.detail a:hover{
+    color: black;
+}
